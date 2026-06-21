@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-06-21T11:26:19.629Z",
+  "packages": [
+    {
+      "packageId": "wiktionary_en",
+      "name": "English Wiktionary",
+      "language": "en",
+      "description": "Comprehensive English dictionary from Wiktionary — definitions, examples, pronunciation, synonyms & antonyms",
+      "downloadUrl": "http://10.0.2.2:8080/wiktionary_en.db",
+      "fileSizeBytes": 4403200,
+      "sha256": "de77cf00938fca9623ef7bf8f9ed3a384507695a590e43973653217a17fb748c",
+      "version": "1.0.0"
+    },
+    {
+      "packageId": "wordnet_en",
+      "name": "WordNet Dictionary",
+      "language": "en",
+      "description": "Princeton WordNet 3.1 — lexical database with definitions, synonyms, and semantic relationships",
+      "downloadUrl": "http://10.0.2.2:8080/wordnet_en.db",
+      "fileSizeBytes": 34418688,
+      "sha256": "97dee032cdc7d4dc7e41918ba406b5bed1822b8584d796bfd5c7167917f38104",
+      "version": "1.0.0"
+    }
+  ]
+}
