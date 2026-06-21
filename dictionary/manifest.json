@@ -1,26 +1,105 @@
 {
-  "version": "1.0",
-  "generatedAt": "2026-06-21T17:09:30.000Z",
+  "version": "2.0",
+  "generatedAt": "2026-06-21T17:43:29.315Z",
   "packages": [
     {
-      "packageId": "wiktionary_en",
-      "name": "English Wiktionary",
+      "packageId": "core_en_a_i",
+      "name": "Core Dictionary A–I",
       "language": "en",
-      "description": "Comprehensive English dictionary from Wiktionary — definitions, examples, pronunciation, synonyms & antonyms",
-      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v1.0/wiktionary_en.db",
-      "fileSizeBytes": 278085632,
-      "sha256": "bf8ee400cce36537d43467ad8e0d5d8a964ed50e1c2e58ed423037bc4d4058d8",
-      "version": "1.0.0"
+      "description": "Primary definitions for 585K words (A through I)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/core_en_a_i.db",
+      "fileSizeBytes": 98099200,
+      "sha256": "3bd7e607da5e9af0fb65bc1ece93e9a2e142c70ab1057fbebccd8177ae9628b0",
+      "version": "2.0.0",
+      "category": "core"
+    },
+    {
+      "packageId": "core_en_j_r",
+      "name": "Core Dictionary J–R",
+      "language": "en",
+      "description": "Primary definitions for 430K words (J through R)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/core_en_j_r.db",
+      "fileSizeBytes": 70860800,
+      "sha256": "efeffd9bd56b82463aaef11f494f6d69d34787b486161437b7742564c4a9bf41",
+      "version": "2.0.0",
+      "category": "core"
+    },
+    {
+      "packageId": "core_en_s_z",
+      "name": "Core Dictionary S–Z",
+      "language": "en",
+      "description": "Primary definitions for 317K words (S through Z)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/core_en_s_z.db",
+      "fileSizeBytes": 53149696,
+      "sha256": "55b23f14746d44c6058b40548ec6325a4a87c7f22c495c53f959443d2a9425ff",
+      "version": "2.0.0",
+      "category": "core"
     },
     {
       "packageId": "wordnet_en",
       "name": "WordNet Dictionary",
       "language": "en",
-      "description": "Princeton WordNet 3.1 — lexical database with definitions, synonyms, and semantic relationships",
-      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v1.0/wordnet_en.db",
+      "description": "Princeton WordNet 3.1 — definitions, synonyms, and semantic relationships",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/wordnet_en.db",
       "fileSizeBytes": 34418688,
       "sha256": "97dee032cdc7d4dc7e41918ba406b5bed1822b8584d796bfd5c7167917f38104",
-      "version": "1.0.0"
+      "version": "2.0.0",
+      "category": "definition"
+    },
+    {
+      "packageId": "examples_en_a_i",
+      "name": "Sentence Examples A–I",
+      "language": "en",
+      "description": "Real usage examples for 111K words (A through I)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/examples_en_a_i.db",
+      "fileSizeBytes": 100466688,
+      "sha256": "1432410ebfc22db4a0d561dcc976c4f327faed483e47f11456fc0cde7c149f61",
+      "version": "2.0.0",
+      "category": "examples"
+    },
+    {
+      "packageId": "examples_en_j_r",
+      "name": "Sentence Examples J–R",
+      "language": "en",
+      "description": "Real usage examples for 76K words (J through R)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/examples_en_j_r.db",
+      "fileSizeBytes": 66387968,
+      "sha256": "641cbcaee031fe1c60807514cc1bdfa1ffae2953dea79aebf3cf7a803b6aaa28",
+      "version": "2.0.0",
+      "category": "examples"
+    },
+    {
+      "packageId": "examples_en_s_z",
+      "name": "Sentence Examples S–Z",
+      "language": "en",
+      "description": "Real usage examples for 63K words (S through Z)",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/examples_en_s_z.db",
+      "fileSizeBytes": 55885824,
+      "sha256": "1f56f3ec998879b1ec9b124a8c4748cc2be0dc6b2c58996c1bc8e5214602eab8",
+      "version": "2.0.0",
+      "category": "examples"
+    },
+    {
+      "packageId": "thesaurus_en",
+      "name": "Thesaurus",
+      "language": "en",
+      "description": "Synonyms and antonyms for 52K English words",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/thesaurus_en.db",
+      "fileSizeBytes": 17199104,
+      "sha256": "de5181b179b0dc3cee7a0b2d3af7e115aee2f2c9ebb274d82b974e4a654a7dcb",
+      "version": "2.0.0",
+      "category": "thesaurus"
+    },
+    {
+      "packageId": "pronunciation_en",
+      "name": "Pronunciation",
+      "language": "en",
+      "description": "IPA phonetic transcriptions for 97K English words",
+      "downloadUrl": "https://github.com/silentext/cdn/releases/download/v2.0/pronunciation_en.db",
+      "fileSizeBytes": 19529728,
+      "sha256": "c35af498417dc8ded17ade44b3390809cda8e3af3958f83ac75344f0f421f8e9",
+      "version": "2.0.0",
+      "category": "pronunciation"
     }
   ]
 }
